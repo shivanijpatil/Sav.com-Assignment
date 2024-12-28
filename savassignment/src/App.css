@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ece3d4;
+}
+
+.captcha-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.draggable-item {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: grab;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.pagination button.active {
+    background-color: #0056b3;
+}
+
+.pagination button:hover {
+    background-color: #0056b3;
+}
+
+.app-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+
+.login-signup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.login-signup-container {
+  max-width: 400px;
+  width: 90%;
+  margin: 0 auto; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: white; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  padding-right: 40px;
+}
+
+
+.login-signup-container h1 {
+    margin-bottom: 20px;
+}
+
+.login-signup-container input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-signup-container button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-signup-container button:hover {
+    background-color: #0056b3;
+}
+
+.toggle-mode {
+    background-color: transparent;
+    color: #007bff;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.toggle-mode:hover {
+    color: #0056b3;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.app-container {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.item-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.draggable-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-image {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #0056b3;
+}
+
+.pagination button:hover {
+    background-color: #003d80;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.logout-button {
+    padding: 10px 20px;
+    background-color: #e79191;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.logout-button:hover {
+    background-color: #e60000;
+}
+
+.load-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #e79191;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.load-button:hover {
+  background-color: #e60000;
+  transform: scale(1.05);
+}
