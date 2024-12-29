@@ -141,7 +141,7 @@ const MainContent = ({ onLogout }) => {
           className="search-bar"
         />
         <button onClick={loadAllProducts} className="load-button">
-          Load All
+          Load All Products
         </button>
       </div>
       <DndProvider backend={HTML5Backend}>
